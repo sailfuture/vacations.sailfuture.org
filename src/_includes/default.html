@@ -11,15 +11,33 @@
       <meta name="description" content="{{description}}"/>
     {% endif %}
     {% block head %}{% endblock %}
+    <link rel="preload" href="Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
     {% if prism == true %}
       <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
     {% endif %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
   </head>
   <body>
     {% include "./partials/navbar.html" %}
 
-    {{ content | safe }}
+    {% include "./partials/header.html" %}
+
+    {% include "./partials/north.html" %}
+    
+    {% include "./partials/cta-carribean.html" %}
+
+    {% include "./partials/carribean.html" %}
+
+    {% include "./partials/hero-map.html" %}
+
+    {% include "./partials/dates.html" %}
+
+
+    
+    {% include "./partials/cta-north.html" %}
+
+    {% include "./partials/contact.html" %}
 
     {% include "./partials/footer.html" %}
 
