@@ -44,3 +44,9 @@ body pre[class*="language-"] {
 html {
   font-family: 'Mona Sans';
 }
+
+.mona {
+  font-family: 'Mona Sans';
+  font-stretch: 125%;
+  font-weight: 400;
+}
