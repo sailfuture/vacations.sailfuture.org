@@ -1,6 +1,6 @@
 backend:
   # Use netlify identity as backend
-  name: git-gateway
+  name: benevolent-torrone-24aa96
   branch: master
   ### enable below lines for github integration ###
   # name: github
