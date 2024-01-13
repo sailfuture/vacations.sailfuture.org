@@ -37,6 +37,7 @@ body pre[class*="language-"] {
   src:
     url('/src/fonts/Mona-Sans.woff2') format('woff2 supports variations'),
     url("/src/fonts/MonaSansExpanded-Medium.otf") format("opentype"),
+    url("/src/fonts/MonaSansExpanded-Bold.otf") format("opentype"),
     url("/src/fonts/Mona-Sans.ttf"),
     url('/src/fonts/Mona-Sans.woff2') format('woff2-variations');
   font-weight: 200 300 400 500 600 700 800 900;
