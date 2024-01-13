@@ -19,13 +19,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
   </head>
   <body>
-    {% include "./partials/navbar.html" %}
 
-    {% include "./partials/contact.html" %}
 
+    <div class="h-dvh min-height-full">
+      {% include "./partials/nav-fixed.html" %}
     {% include "./partials/home-main.html" %}
+    {% include "./partials/footer-main.html" %}
+  </div>
 
-    {% include "./partials/footer.html" %}
+
 
     <script src="/static/js/alpine.js"></script>
 
