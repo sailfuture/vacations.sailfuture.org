@@ -14,14 +14,14 @@
 -->
 <div class="relative bg-white">
   <div class="lg:absolute lg:inset-0 lg:left-1/2">
-    <img class="h-64 w-full bg-gray-50 object-cover sm:h-80 lg:absolute lg:h-full" src="https://res.cloudinary.com/dbhwzxw0k/image/upload/v1703040742/30m-Yacht-JUPITER_-9883-155.jpg" alt="">
+    <img class="hidden lg:grid h-64 w-full bg-gray-50 object-cover sm:h-80 lg:absolute lg:h-full" src="https://res.cloudinary.com/dbhwzxw0k/image/upload/v1703040742/30m-Yacht-JUPITER_-9883-155.jpg" alt="">
   </div>
-  <div class="pb-24 pt-16 sm:pb-32 sm:pt-24 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:pt-32">
-    <div class="px-6 lg:px-8">
+  <div class="py-12 lg:py-24 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2">
+    <div class="px-8 lg:px-8">
       <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900">Interested in Booking?</h2>
-        <p class="mt-2 text-lg leading-8 text-gray-600">Proin volutpat consequat porttitor cras nullam gravida at orci molestie a eu arcu sed ut tincidunt magna.</p>
-        <form action="#" method="POST" class="mt-16" netlify action="/thankyou">
+        <p class="mt-2 text-lg leading-8 text-gray-600">If you're interested in booking your next adventure with us, please fill out the form below with your name, phone number, email, and select your preferred dates of interest.<p>
+        <form action="#" method="POST" class="mt-8" netlify action="/thankyou">
           <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div>
               <label for="first-name" class="required block text-sm font-semibold leading-6 text-gray-900">First name</label>
@@ -41,24 +41,39 @@
                 <input id="email" required name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
               </div>
             </div>
+
             <div class="sm:col-span-2">
-              <label for="Dates" class="block text-sm font-medium leading-6 text-gray-900">Dates</label>
+              <label for="Dates" class="block text-sm font-medium leading-6 text-gray-900">Select Your Date</label>
               <div class="mt-2">
-                <select id="dates" required name="dates" autocomplete="dates" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:max-w-xs sm:text-sm sm:leading-6">
-                  <option>February 28th - March 30th</option>
-                  <option>February 30th - March 30th</option>
-                  <option>June 28th - March 30th</option>
+                <select id="dates" required name="dates" autocomplete="dates" class="block w-full rounded-md border py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:max-w-xs sm:text-sm sm:leading-6">                  <option value="" disabled selected hidden>Select Date</option>
+                  <option disabled value="February 25, 2024 - March 2, 2024">February 25, 2024 - March 2, 2024</option>
+                  <option value="March 3, 2024 - March 9, 2024">March 3, 2024 - March 9, 2024</option>
+                  <option value="April 28, 2024 - May 4, 2024">April 28, 2024 - May 4, 2024</option>
+                  <option value="May 5, 2024 - May 11, 2024">May 5, 2024 - May 11, 2024</option>
+                  <option value="July 7, 2024 - July 13, 2024">July 7, 2024 - July 13, 2024</option>
+                  <option value="July 14, 2024 - July 20, 2024">July 14, 2024 - July 20, 2024</option>
+                  <option value="July 21, 2024 - July 27, 2024">July 21, 2024 - July 27, 2024</option>
+                  <option value="July 28, 2024 - August 3, 2024">July 28, 2024 - August 3, 2024</option>
+                  <option value="August 4, 2024 - August 10, 2024">August 4, 2024 - August 10, 2024</option>
+                  <option value="August 11, 2024 - August 17, 2024">August 11, 2024 - August 17, 2024</option>
                 </select>
               </div>
             </div>
 
             <div class="sm:col-span-2">
-              <label for="Destinations" class="block text-sm font-medium leading-6 text-gray-900">Destinations</label>
+              <label for="Destinations" class="block text-sm font-medium leading-6 text-gray-900">Which destination are you interested in joining?</label>
               <div class="mt-2">
                 <select id="destinations" required name="destinations" autocomplete="destinations-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:max-w-xs sm:text-sm sm:leading-6">
-                  <option>North Atlantic</option>
-                  <option>Caribbean</option>
-                  <option>Antigua</option>
+                  <option value="" disabled selected hidden>Select Destination</option>
+                  <option value="Maine & Coastal Towns">North Atlantic Coast</option>
+                  <option value="Maine & Coastal Towns">Maine & Coastal Towns</option>
+                  <option value="Martha's Vineyard">Martha's Vineyard</option>
+                  <option value="Nova Scotia">Nova Scotia</option>
+                  <option value="Maine & Coastal Towns">Carribean Islands</option>
+                  <option value="Antigua, Barbuda, Montserrat, and Guadeloupe">Antigua, Barbuda, Montserrat, and Guadeloupe</option>
+                  <option value="St. Vincent & The Grenadines">St. Vincent & The Grenadines</option>
+                  <option value="British Virgin Islands Paradise">British Virgin Islands</option>
+                  <option value="Puerto Rico and Spanish Virgin Islands Excursion">Puerto Rico and Spanish Virgin Islands</option>
                 </select>
               </div>
             </div>
