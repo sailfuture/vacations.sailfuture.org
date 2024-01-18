@@ -17,14 +17,31 @@
       <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
     {% endif %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+<style>
+  .relative.z-10[aria-modal="true"] {
+    display: none;
+}
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Show the modal
+    var modal = document.querySelector('.relative.z-10[aria-modal="true"]');
+    modal.style.display = 'block';
 
+    // Close the modal when the button is clicked
+    document.getElementById('closeModalButton').addEventListener('click', function() {
+        modal.style.display = 'none';
+    });
+});
+
+</script>
     
   </head>
   <body>
 
 
 
-
+    {% include "./partials/modal.html" %}
       {% include "./partials/nav-fixed.html" %}
     {% include "./partials/home-main.html" %}
     {% include "./partials/footer-main.html" %}
