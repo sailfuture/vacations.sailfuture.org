@@ -179,493 +179,442 @@
           <div>S</div>
         </div>
         <div class="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
-          <!--
-            Always include: "py-1.5 hover:bg-gray-100 focus:z-10"
-            Is current month, include: "bg-white text-gray-900"
-            Is not current month, include: "bg-gray-50 text-gray-400"
-
-            Top left day, include: "rounded-tl-lg"
-            Top right day, include: "rounded-tr-lg"
-            Bottom left day, include: "rounded-bl-lg"
-            Bottom right day, include: "rounded-br-lg"
-          -->
-          <button type="button" class="rounded-tl-lg bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <!--
-              Always include: "mx-auto flex h-7 w-7 items-center justify-center rounded-full"
-              Is today, include: "bg-indigo-600 font-semibold text-white"
-            -->
-            <time datetime="2021-12-27" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">27</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2021-12-28" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">28</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2021-12-29" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">29</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2021-12-30" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">30</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2021-12-31" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">31</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-01" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">1</time>
-          </button>
-          <button type="button" class="rounded-tr-lg bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-02" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">2</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-03" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">3</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-04" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">4</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-05" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">5</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-06" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">6</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-07" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">7</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-08" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">8</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-09" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">9</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-10" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">10</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-11" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">11</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-12" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full bg-indigo-600 font-semibold text-white">12</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-13" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">13</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-14" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">14</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-15" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">15</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-16" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">16</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-17" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">17</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-18" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">18</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-19" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">19</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-20" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">20</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-21" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">21</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-22" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">22</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-23" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">23</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-24" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">24</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-25" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">25</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-26" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">26</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-27" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">27</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-28" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">28</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-29" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">29</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-30" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">30</time>
-          </button>
-          <button type="button" class="rounded-bl-lg bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-31" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">31</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-01" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">1</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-02" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">2</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-03" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">3</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-04" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">4</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-05" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">5</time>
-          </button>
-          <button type="button" class="rounded-br-lg bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-06" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">6</time>
-          </button>
-        </div>
-      </section>
-
-      <section class="text-center">
-        <h2 class="text-sm font-semibold text-gray-900">January 2025</h2>
-        <div class="mt-2 grid grid-cols-7 text-xs leading-6 text-gray-500">
-          <div>M</div>
-          <div>T</div>
-          <div>W</div>
-          <div>T</div>
-          <div>F</div>
-          <div>S</div>
-          <div>S</div>
-        </div>
-        <div class="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
-          <!--
-            Always include: "py-1.5 hover:bg-gray-100 focus:z-10"
-            Is current month, include: "bg-white text-gray-900"
-            Is not current month, include: "bg-gray-50 text-gray-400"
-
-            Top left day, include: "rounded-tl-lg"
-            Top right day, include: "rounded-tr-lg"
-            Bottom left day, include: "rounded-bl-lg"
-            Bottom right day, include: "rounded-br-lg"
-          -->
-          <button type="button" class="rounded-tl-lg bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <!--
-              Always include: "mx-auto flex h-7 w-7 items-center justify-center rounded-full"
-              Is today, include: "bg-indigo-600 font-semibold text-white"
-            -->
-            <time datetime="2021-12-27" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">27</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2021-12-28" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">28</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2021-12-29" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">29</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2021-12-30" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">30</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2021-12-31" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">31</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-01" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">1</time>
-          </button>
-          <button type="button" class="rounded-tr-lg bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-02" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">2</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-03" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">3</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-04" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">4</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-05" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">5</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-06" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">6</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-07" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">7</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-08" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">8</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-09" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">9</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-10" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">10</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-11" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">11</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-12" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full bg-indigo-600 font-semibold text-white">12</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-13" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">13</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-14" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">14</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-15" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">15</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-16" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">16</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-17" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">17</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-18" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">18</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-19" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">19</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-20" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">20</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-21" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">21</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-22" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">22</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-23" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">23</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-24" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">24</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-25" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">25</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-26" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">26</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-27" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">27</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-28" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">28</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-29" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">29</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-30" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">30</time>
-          </button>
-          <button type="button" class="rounded-bl-lg bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-31" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">31</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-01" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">1</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-02" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">2</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-03" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">3</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-04" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">4</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-05" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">5</time>
-          </button>
-          <button type="button" class="rounded-br-lg bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-06" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">6</time>
-          </button>
+          <div class="rounded-tl-lg bg-gray-50 py-1.5 text-gray-400">
+            <time datetime="2024-11-25" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">25</time>
+          </div>
+          <div class="bg-gray-50 py-1.5 text-gray-400">
+            <time datetime="2024-11-26" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">26</time>
+          </div>
+          <div class="bg-gray-50 py-1.5 text-gray-400">
+            <time datetime="2024-11-27" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">27</time>
+          </div>
+          <div class="bg-gray-50 py-1.5 text-gray-400">
+            <time datetime="2024-11-28" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">28</time>
+          </div>
+          <div class="bg-gray-50 py-1.5 text-gray-400">
+            <time datetime="2024-11-29" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">29</time>
+          </div>
+          <div class="bg-gray-50 py-1.5 text-gray-400">
+            <time datetime="2024-11-30" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">30</time>
+          </div>
+          <div class="rounded-tr-lg bg-white py-1.5">
+            <time datetime="2024-12-01" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">1</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-02" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">2</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-03" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">3</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-04" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">4</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-05" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">5</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-06" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">6</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-07" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">7</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-08" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">8</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-09" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">9</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-10" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">10</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-11" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">11</time>
+          </div>
+          <button type="button" class="bg-blue-50 py-1.5 hover:bg-blue-100 focus:z-10">
+            <time datetime="2024-12-12" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">12</time>
+          </button>
+          <button type="button" class="bg-blue-50 py-1.5 hover:bg-blue-100 focus:z-10">
+            <time datetime="2024-12-13" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">13</time>
+          </button>
+          <button type="button" class="bg-blue-50 py-1.5 hover:bg-blue-100 focus:z-10">
+            <time datetime="2024-12-14" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">14</time>
+          </button>
+          <button type="button" class="bg-blue-50 py-1.5 hover:bg-blue-100 focus:z-10">
+            <time datetime="2024-12-15" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">15</time>
+          </button>
+          <button type="button" class="bg-blue-50 py-1.5 hover:bg-blue-100 focus:z-10">
+            <time datetime="2024-12-16" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">16</time>
+          </button>
+          <button type="button" class="bg-blue-50 py-1.5 hover:bg-blue-100 focus:z-10">
+            <time datetime="2024-12-17" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">17</time>
+          </button>
+          <button type="button" class="bg-blue-50 py-1.5 hover:bg-blue-100 focus:z-10">
+            <time datetime="2024-12-18" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">18</time>
+          </button>
+          <button type="button" class="bg-blue-50 py-1.5 hover:bg-blue-100 focus:z-10">
+            <time datetime="2024-12-19" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">19</time>
+          </button>
+          <button type="button" class="bg-blue-50 py-1.5 hover:bg-blue-100 focus:z-10">
+            <time datetime="2024-12-20" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">20</time>
+          </button>
+          <button type="button" class="bg-blue-50 py-1.5 hover:bg-blue-100 focus:z-10">
+            <time datetime="2024-12-21" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">21</time>
+          </button>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-22" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">22</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-23" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">23</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-24" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">24</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-25" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">25</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-26" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">26</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-27" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">27</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-28" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">28</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-29" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">29</time>
+          </div>
+          <div class="bg-white py-1.5">
+            <time datetime="2024-12-30" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">30</time>
+          </div>
+          <div class="rounded-bl-lg bg-white py-1.5">
+            <time datetime="2024-12-31" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">31</time>
+          </div>
+          <div class="bg-gray-50 py-1.5 text-gray-400">
+            <time datetime="2025-01-01" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">1</time>
+          </div>
+          <div class="bg-gray-50 py-1.5 text-gray-400">
+            <time datetime="2025-01-02" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">2</time>
+          </div>
+          <div class="bg-gray-50 py-1.5 text-gray-400">
+            <time datetime="2025-01-03" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">3</time>
+          </div>
+          <div class="bg-gray-50 py-1.5 text-gray-400">
+            <time datetime="2025-01-04" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">4</time>
+          </div>
+          <div class="rounded-br-lg bg-gray-50 py-1.5 text-gray-400">
+            <time datetime="2025-01-05" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">5</time>
+          </div>
         </div>
         <div class="p-4 bg-slate-50 rounded-xl mt-4 ring-1 ring-slate-200">
-          <tr>
-            <td class="py-4 pr-8">
-              <div class="flex items-center">
-                <div>
-                  <div class="font-medium text-gray-900">July 29th, 2024 → August 4th, 2024</div>
-                </div>
-              </div>
-            </td>
-            <td class="whitespace-nowrap py-4 text-right font-medium">
-              <a href="/contact" class="inline-flex items-center gap-x-2 rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
-                Book Now
-                <svg class="-mr-0.5 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
-                </svg>
-              </a>
-            </td>
-          </tr>
           <div class="text-sm text-slate-200">
-          October 14th, 2024 → October 20th, 2024
-        </div>
-        <div class="text-sm mt-2 text-slate-200">
-          October 21st, 2024 → October 27th, 2024
-        </div>
+            December 2nd, 2024 → December 8th, 2024
+          </div>
+          <div class="text-sm mt-2 text-slate-200">
+            December 9th, 2024 → December 15th, 2024
+          </div>
+          <div class="text-sm mt-2 text-slate-200">
+            December 16th, 2024 → December 22nd, 2024
+          </div>
+          <div class="text-sm mt-2 text-slate-200">
+            December 23rd, 2024 → December 29th, 2024
+          </div>
+          <div class="text-sm mt-2 text-slate-200">
+            December 30th, 2024 → January 5th, 2025
+          </div>
         </div>
       </section>
+      
 
-      <section class="text-center">
-        <h2 class="text-sm font-semibold text-gray-900">March 2025</h2>
-        <div class="mt-2 grid grid-cols-7 text-xs leading-6 text-gray-500">
-          <div>M</div>
-          <div>T</div>
-          <div>W</div>
-          <div>T</div>
-          <div>F</div>
-          <div>S</div>
-          <div>S</div>
+<section class="text-center">
+  <h2 class="text-sm font-semibold text-gray-900">January 2025</h2>
+  <div class="mt-2 grid grid-cols-7 text-xs leading-6 text-gray-500">
+    <div>M</div>
+    <div>T</div>
+    <div>W</div>
+    <div>T</div>
+    <div>F</div>
+    <div>S</div>
+    <div>S</div>
+  </div>
+  <div class="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
+
+    <button type="button" class="rounded-tl-lg bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+
+      <time datetime="2024-12-30" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">30</time>
+    </button>
+    <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2024-12-31" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">31</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-01" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">1</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-02" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">2</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-03" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">3</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-04" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">4</time>
+    </button>
+    <button type="button" class="rounded-tr-lg bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-05" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">5</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-06" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">6</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-07" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">7</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-08" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">8</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-09" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">9</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-10" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">10</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-11" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">11</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-12" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">12</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-13" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">13</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-14" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">14</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-15" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">15</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-16" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">16</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-17" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">17</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-18" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">18</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-19" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">19</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-20" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">20</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-21" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">21</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-22" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">22</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-23" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">23</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-24" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">24</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-25" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">25</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-26" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">26</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-27" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">27</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-28" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">28</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-29" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">29</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-30" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">30</time>
+    </button>
+    <button type="button" class="rounded-bl-lg bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-31" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">31</time>
+    </button>
+    <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-01" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">1</time>
+    </button>
+    <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-02" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">2</time>
+    </button>
+    <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-03" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">3</time>
+    </button>
+    <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-04" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">4</time>
+    </button>
+    <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-05" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">5</time>
+    </button>
+    <button type="button" class="rounded-br-lg bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-06" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">6</time>
+    </button>
+  </div>
+  <div class="p-4 bg-slate-50 rounded-xl mt-4 ring-1 ring-slate-200">
+    <tr>
+      <td class="py-4 pr-8">
+        <div class="flex items-center">
+          <div>
+            <div class="font-medium text-gray-900">July 29th, 2024 → August 4th, 2024</div>
+          </div>
         </div>
-        <div class="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
-          <!--
-            Always include: "py-1.5 hover:bg-gray-100 focus:z-10"
-            Is current month, include: "bg-white text-gray-900"
-            Is not current month, include: "bg-gray-50 text-gray-400"
+      </td>
+      <td class="whitespace-nowrap py-4 text-right font-medium">
+        <a href="/contact" class="inline-flex items-center gap-x-2 rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
+          Book Now
+          <svg class="-mr-0.5 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
+          </svg>
+        </a>
+      </td>
+    </tr>
+    <div class="text-sm text-slate-200">
+      October 14th, 2024 → October 20th, 2024
+    </div>
+    <div class="text-sm mt-2 text-slate-200">
+      October 21st, 2024 → October 27th, 2024
+    </div>
+  </div>
+</section>
 
-            Top left day, include: "rounded-tl-lg"
-            Top right day, include: "rounded-tr-lg"
-            Bottom left day, include: "rounded-bl-lg"
-            Bottom right day, include: "rounded-br-lg"
-          -->
-          <button type="button" class="rounded-tl-lg bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <!--
-              Always include: "mx-auto flex h-7 w-7 items-center justify-center rounded-full"
-              Is today, include: "bg-indigo-600 font-semibold text-white"
-            -->
-            <time datetime="2021-12-27" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">27</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2021-12-28" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">28</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2021-12-29" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">29</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2021-12-30" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">30</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2021-12-31" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">31</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-01" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">1</time>
-          </button>
-          <button type="button" class="rounded-tr-lg bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-02" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">2</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-03" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">3</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-04" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">4</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-05" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">5</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-06" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">6</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-07" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">7</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-08" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">8</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-09" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">9</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-10" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">10</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-11" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">11</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-12" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full bg-indigo-600 font-semibold text-white">12</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-13" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">13</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-14" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">14</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-15" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">15</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-16" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">16</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-17" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">17</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-18" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">18</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-19" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">19</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-20" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">20</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-21" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">21</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-22" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">22</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-23" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">23</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-24" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">24</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-25" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">25</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-26" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">26</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-27" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">27</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-28" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">28</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-29" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">29</time>
-          </button>
-          <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-30" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">30</time>
-          </button>
-          <button type="button" class="rounded-bl-lg bg-white py-1.5 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-01-31" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">31</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-01" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">1</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-02" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">2</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-03" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">3</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-04" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">4</time>
-          </button>
-          <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-05" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">5</time>
-          </button>
-          <button type="button" class="rounded-br-lg bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
-            <time datetime="2022-02-06" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">6</time>
-          </button>
-        </div>
-  
-        <div class="p-4 bg-slate-50 rounded-xl mt-4 ring-1 ring-slate-200">
-        <div class="text-sm text-slate-200">
-        October 14th, 2024 → October 20th, 2024
-      </div>
-      <div class="text-sm mt-2 text-slate-200">
-        October 21st, 2024 → October 27th, 2024
-      </div>
-      </div>
+<section class="text-center">
+  <h2 class="text-sm font-semibold text-gray-900">February 2025</h2>
+  <div class="mt-2 grid grid-cols-7 text-xs leading-6 text-gray-500">
+    <div>M</div>
+    <div>T</div>
+    <div>W</div>
+    <div>T</div>
+    <div>F</div>
+    <div>S</div>
+    <div>S</div>
+  </div>
+  <div class="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
 
-      </section>
+    <button type="button" class="rounded-tl-lg bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-27" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">27</time>
+    </button>
+    <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-28" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">28</time>
+    </button>
+    <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-29" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">29</time>
+    </button>
+    <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-30" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">30</time>
+    </button>
+    <button type="button" class="rounded-tr-lg bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-01-31" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">31</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-01" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">1</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-02" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">2</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-03" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">3</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-04" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">4</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-05" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">5</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-06" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">6</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-07" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">7</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-08" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">8</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-09" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">9</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-10" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">10</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-11" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">11</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-12" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">12</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-13" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">13</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-14" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">14</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-15" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">15</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-16" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">16</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-17" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">17</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-18" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">18</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-19" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">19</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-20" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">20</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-21" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">21</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-22" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">22</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-23" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">23</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-24" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">24</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-25" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">25</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-26" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">26</time>
+    </button>
+    <button type="button" class="bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-27" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">27</time>
+    </button>
+    <button type="button" class="rounded-bl-lg bg-white py-1.5 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-02-28" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">28</time>
+    </button>
+    <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-03-01" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">1</time>
+    </button>
+    <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-03-02" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">2</time>
+    </button>
+    <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-03-03" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">3</time>
+    </button>
+    <button type="button" class="bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-03-04" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">4</time>
+    </button>
+    <button type="button" class="rounded-br-lg bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10">
+      <time datetime="2025-03-05" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full">5</time>
+    </button>
+  </div>
+</section>
+
     </div>
 
 
